@@ -14,6 +14,6 @@ namespace APIparcial1.Models
             
             }
 
-        public System.Data.Entity.DbSet<APIparcial1.Models.MayraCabreraFriend> MayraCabreraFriends { get; set; }
+        public System.Data.Entity.DbSet<APIparcial.Models.MayraCabreraFriend> MayraCabreraFriends { get; set; }
     }
 }

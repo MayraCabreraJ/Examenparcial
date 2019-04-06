@@ -26,10 +26,11 @@ namespace MVCparcial.Models
         [Key]
         public int FriendId { get; set; }
         [Required]
+     
         public string Name { get; set; }
-        public string DateType { get; set; }
+        public int DateType { get; set; }
         public string Apodo { get; set; }
-        public FriendType TipoAmigo { get; set; }
+      public FriendType TipoAmigo { get; set; }
         
     }
 }

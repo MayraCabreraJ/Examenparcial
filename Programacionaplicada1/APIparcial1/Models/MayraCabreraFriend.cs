@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace APIparcial1.Models
+namespace APIparcial.Models
 {
     public enum FriendType
     {
@@ -28,9 +28,9 @@ namespace APIparcial1.Models
         [Required]
         public string Name { get; set; }
         public string DateType { get; set; }
-        public FriendType TipoAmigo { get; set; }
         public string Apodo { get; set; }
+      public FriendType TipoAmigo { get; set; }
+       
         
-
     }
 }

@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using APIparcial.Models;
 using APIparcial1.Models;
 
 namespace APIparcial1.Controllers
